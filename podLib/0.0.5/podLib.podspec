@@ -12,5 +12,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/aranm/podLib.git", :tag => "0.0.5" }
   s.source_files  = "podLib", "podLib/**/*.{h,m}"
   s.requires_arc = true
-  s.dependency 'RestKit'
+  s.dependency 'RestKit', '~> 0.20.0'
 end
